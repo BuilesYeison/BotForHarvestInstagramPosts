@@ -21,7 +21,7 @@ PROFILES = ["checkandplay","elrubiuswtf", "instantgaminges", "levelupcom", "3dju
 date = datetime.now() 
 now = datetime(date.year,date.month,date.day)
 
-timeSleep = 30 #set time to wait between posts
+timeSleep = 5 #set time to wait between posts
 
 TOKEN = os.getenv("TOKEN") #get bot token
 
